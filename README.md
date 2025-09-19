@@ -36,6 +36,7 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
 - **Top Payment Method:** Credit Card (11.30M)  
 - **Best-Selling Model:** "huge" (283K revenue)  
 - **Top Location by Sales:** Lake Amanda (186K)  
+- **Top Mobile Model:** *Huge* model (282.86K revenue).  
 - **Gender Split:** Sales are evenly distributed across Male, Female, and Other.  
 - **Online Payments:** Strong growth, generating 10.28M in revenue.  
 
@@ -49,19 +50,28 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
   
 
 ### Excel Pivot Tables  
-<img width="1372" height="499" alt="Pivot Table_Mobile Sales" src="https://github.com/user-attachments/assets/0bbc2f49-9a30-4754-8513-ed1cbdcee922" />  
+![Pivot Table_Mobile Sales](https://github.com/user-attachments/assets/ca1d8dde-3463-4eb8-9196-593a87d0e8b5)
+
 
 ---
 
 ## 🗄️ SQL Queries  
-
-### 1. Find the most expensive brand  
+The following SQL queries were used to extract key insights from the dataset
+   
 ```sql
-
+---Find the most expensive brand----
 SELECT TOP 1 Brand, MAX(UnitPrice) AS HighestPrice
 FROM mobile_sales
 GROUP BY Brand
 ORDER BY HighestPrice DESC;
+
+
+---Top 5 Locations by Total Revenue---
+SELECT TOP 5 Location, SUM(TotalRevenue) AS Revenue
+FROM mobile_sales
+GROUP BY Location
+ORDER BY Revenue DESC;
+
 ```
 ---
 
