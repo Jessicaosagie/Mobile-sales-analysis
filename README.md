@@ -9,7 +9,7 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
 ---
 
 ## 📂 Dataset Overview  
-- **Source:** Kaggle  
+- **Source:** [Kaggle - Mobile Sales Dataset](https://www.kaggle.com/datasets/waqi786/mobile-sales-dataset)   
 - **Format:** CSV  
 - **Size:** 1000+ transactions  
 
