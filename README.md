@@ -44,7 +44,7 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
 ## 📊 Visualizations  
 
 ### Power BI Dashboard  
-![Power BI Dashboard]
+
 <img width="1138" height="639" alt="Mobile_Sales Dashboard" src="https://github.com/user-attachments/assets/15abff03-02cf-487e-b4a1-79a98a794435" />
   
 
@@ -62,7 +62,7 @@ SELECT TOP 1 Brand, MAX(UnitPrice) AS HighestPrice
 FROM mobile_sales
 GROUP BY Brand
 ORDER BY HighestPrice DESC;
-
+```
 ---
 
 ### 🏷️ Author  
