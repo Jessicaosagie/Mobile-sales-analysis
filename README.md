@@ -59,3 +59,10 @@ SELECT TOP 1 Brand, MAX(UnitPrice) AS HighestPrice
 FROM mobile_sales
 GROUP BY Brand
 ORDER BY HighestPrice DESC;
+
+
+## 🏷️ Author  
+
+- **Name:** Your Name  
+- **Email:** jessica.a.osagie@gmail.com   
+- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/jessica-osagie/)  
