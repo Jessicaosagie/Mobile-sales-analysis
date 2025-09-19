@@ -1,5 +1,14 @@
 # 📊 Mobile Sales Analysis  
 
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Dataset Overview](#-dataset-overview)
+- [Tools Used](#-tools-used)
+- [Key Insights](#-key-insights)
+- [Visualization](#-visualizations)
+- [SQL Queries](#-sql-queries)
+- [Author](#--author)
+
 ## 📖 Project Overview  
 This project analyzes mobile phone sales data sourced from Kaggle.  
 The goal is to uncover customer purchasing trends, payment preferences, and product performance across different demographics and locations.  
@@ -75,7 +84,7 @@ ORDER BY Revenue DESC;
 ```
 ---
 
-### 🏷️ Author  
+## 🏷️ Author  
 
 - **Name:** Jessica Osagie  
 - **Email:** jessica.a.osagie@gmail.com   
