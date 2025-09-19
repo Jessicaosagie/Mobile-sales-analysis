@@ -49,7 +49,7 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
   
 
 ### Excel Pivot Tables  
-*(Insert screenshot of Pivot Tables)*  
+<img width="1372" height="499" alt="Pivot Table_Mobile Sales" src="https://github.com/user-attachments/assets/0bbc2f49-9a30-4754-8513-ed1cbdcee922" />  
 
 ---
 
@@ -57,13 +57,15 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
 
 ### 1. Find the most expensive brand  
 ```sql
+
 SELECT TOP 1 Brand, MAX(UnitPrice) AS HighestPrice
 FROM mobile_sales
 GROUP BY Brand
 ORDER BY HighestPrice DESC;
 
+---
 
-## 🏷️ Author  
+### 🏷️ Author  
 
 - **Name:** Your Name  
 - **Email:** jessica.a.osagie@gmail.com   
