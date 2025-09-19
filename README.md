@@ -67,6 +67,6 @@ ORDER BY HighestPrice DESC;
 
 ### 🏷️ Author  
 
-- **Name:** Your Name  
+- **Name:** Jessica Osagie  
 - **Email:** jessica.a.osagie@gmail.com   
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/jessica-osagie/)  
+- **LinkedIn:** [LinkedIn](https://linkedin.com/in/jessica-osagie/)  
