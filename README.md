@@ -81,6 +81,12 @@ FROM mobile_sales
 GROUP BY Location
 ORDER BY Revenue DESC;
 
+
+SELECT CustomerGender, SUM(TotalRevenue) AS TotalSales
+FROM mobile_sales
+GROUP BY CustomerGender
+ORDER BY TotalSales DESC;
+
 ```
 ---
 
