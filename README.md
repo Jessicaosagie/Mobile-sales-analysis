@@ -56,7 +56,10 @@ Dashboards and reports were built using **Power BI, Excel, and SQL** to provide 
 ### Power BI Dashboard  
 
 <img width="1138" height="639" alt="Mobile_Sales Dashboard" src="https://github.com/user-attachments/assets/15abff03-02cf-487e-b4a1-79a98a794435" />
-  
+
+
+<img width="859" height="403" alt="image" src="https://github.com/user-attachments/assets/d900eed5-d8fc-421c-8448-a49ac02a2720" />
+
 
 ### Excel Pivot Tables  
 ![Pivot Table_Mobile Sales](https://github.com/user-attachments/assets/ca1d8dde-3463-4eb8-9196-593a87d0e8b5)
